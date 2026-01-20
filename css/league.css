@@ -34,7 +34,15 @@ header h1{
   margin:3rem auto;
   padding:0 1.5rem;
 }
-
+.profile-pic{
+  width:160px;
+  height:200px;
+  object-fit:contain;
+  background:#000;
+  border-radius:6px;
+  border:1px solid rgba(214,179,106,.5);
+  box-shadow:0 0 30px rgba(0,0,0,.9);
+}
 .panel{
   background:linear-gradient(180deg,#1a1f2e,#0e111a);
   border:1px solid rgba(214,179,106,.35);
